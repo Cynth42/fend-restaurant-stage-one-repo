@@ -30,23 +30,42 @@
 
   <!-- Beginning main -->
   <main id="maincontent" role="main">
-    <!-- Beginning map -->
-    <section id="map-container" role="application" aria-label="Mapbox Map">
-      <div id="map" aria-hidden="true" aria-describedby="map-help"></div>
-    </section>
-    <!-- End map -->
     <!-- Beginning restaurant -->
     <section id="restaurant-container" aria-labelled="restaurant-name">
       <h2 id="restaurant-name"></h2>
-      <img id="restaurant-img">
+      <div class="restaurant-img-div">
+        <img id="restaurant-img" class="restaurant-img">
+      </div>
       <p id="restaurant-cuisine"></p>
-      <p id="restaurant-address"></p>
-      <table id="restaurant-hours"></table>
     </section>
+
+    <section id="restaurant-address-hours">
+       <div class="restaurant-details">
+         <!-- Beginning map -->
+         <section id="map-container" role="application" aria-label="Mapbox Map">
+           <div id="map" aria-hidden="true" aria-describedby="map-help"></div>
+         </section>
+         <!-- End map -->
+
+         <div class="restaurant-address-hours">
+           <div class="restaurant-address">
+             <h3 class="address-hours-title">Adress</h3>
+             <p id="restaurant-address"></p>
+           <div>
+           <div class="restaurant-hours">
+             <h3 class="address-hours-title">Hours Schedule</h3>
+             <table id="restaurant-hours"></table>
+           </div>
+        </div>
+      <div>
+    </section>
+
     <!-- end restaurant -->
     <!-- Beginning reviews -->
     <section id="reviews-container" arial-label="reviews">
-      <ul id="reviews-list" aria-label="review-list"></ul>
+      <div class="reviews-details">
+        <ul id="reviews-list" aria-label="review-list"></ul>
+      </div>
     </section>
     <!-- End reviews -->
   </main>

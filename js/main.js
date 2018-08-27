@@ -165,7 +165,7 @@ createRestaurantHTML = (restaurant) => {
   const image = document.createElement('img');
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
-  //image.alt = DBHelper.imageAltForRestaurant(restaurant);
+  image.alt = restaurant.alt;
   li.append(image);
 
   const name = document.createElement('h1');
@@ -202,7 +202,6 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     }
     self.markers.push(marker);
   });
-
 }
 /* addMarkersToMap = (restaurants = self.restaurants) => {
   restaurants.forEach(restaurant => {
@@ -214,3 +213,15 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     self.markers.push(marker);
   });
 } */
+
+/**
+ * Add service worker
+ */
+if ('serviceWorker' in navigator) {
+  window.addEventListener ('load', () => {
+     navigator.serviceWorker
+     .register('./sw.js', {scope: './'})
+     .then(reg => console.log('Service worker registered successfully!'))
+     .catch(error => console.log(`Service worker failed: Error: ${error}`));
+   });
+}
