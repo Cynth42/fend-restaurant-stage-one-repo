@@ -8,7 +8,6 @@ self.addEventListener('install', (event) => {
 //Call activate event
 self.addEventListener('activate', (event) => {
   console.log('Service worker: activated!');
-  //Remove unwanted caches
     event.waitUntil(
       caches.keys().then(cacheNames => {
         return Promise.all(
@@ -29,13 +28,10 @@ self.addEventListener('fetch', (event) => {
   event.respondWith(
     fetch(event.request)
       .then(response => {
-        //make copy/clone of response
         const responseClone = response.clone();
-        //Open cache
         caches
            .open(cacheName)
            .then(cache => {
-             //Add response to caches
              cache.put(event.request, responseClone);
            });
         return response;
