@@ -90,7 +90,7 @@
       "lat": 40.747143,
       "lng": -73.985414
     },
-    "cuisine_type": "Asian",
+    "cuisine_type": "Asian Cuisine",
     "operating_hours": {
       "Monday": "11:30 am - 2:00 am",
       "Tuesday": "11:30 am - 2:00 am",
@@ -130,7 +130,7 @@
       "lat": 40.722216,
       "lng": -73.987501
     },
-    "cuisine_type": "American",
+    "cuisine_type": "American cuisine",
     "operating_hours": {
       "Monday": "8:00 am - 10:30 pm",
       "Tuesday": "8:00 am - 10:30 pm",
@@ -170,7 +170,7 @@
       "lat": 40.705089,
       "lng": -73.933585
     },
-    "cuisine_type": "Pizza",
+    "cuisine_type": "Gourmet Pizza",
     "operating_hours": {
       "Monday": "11:00 am - 12:00 am",
       "Tuesday": "11:00 am - 12:00 am",
@@ -210,7 +210,7 @@
       "lat": 40.674925,
       "lng": -74.016162
     },
-    "cuisine_type": "American",
+    "cuisine_type": "American Cuisine",
     "operating_hours": {
       "Monday": "Closed",
       "Tuesday": "12:00 pm - 10:00 pm",
@@ -250,7 +250,7 @@
       "lat": 40.727397,
       "lng": -73.983645
     },
-    "cuisine_type": "American",
+    "cuisine_type": "American Cuisine",
     "operating_hours": {
       "Monday": "11:30 am - 10:00 pm",
       "Tuesday": "Closed",
@@ -290,7 +290,7 @@
       "lat": 40.726584,
       "lng": -74.002082
     },
-    "cuisine_type": "American",
+    "cuisine_type": "American Cuisine",
     "operating_hours": {
       "Monday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
       "Tuesday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
@@ -324,13 +324,13 @@
     "name": "Mu Ramen",
     "neighborhood": "Queens",
     "photograph": "9.jpg",
-    "Alt": "Guests eating noodles",
+    "alt": "Guests eating noodles",
     "address": "1209 Jackson Ave, Queens, NY 11101",
     "latlng": {
       "lat": 40.743797,
       "lng": -73.950652
     },
-    "cuisine_type": "Asian",
+    "cuisine_type": "Asian Cuisine",
     "operating_hours": {
       "Monday": "5:00 pm - 10:00 pm",
       "Tuesday": "5:00 pm - 10:00 pm",
@@ -370,7 +370,7 @@
       "lat": 40.743394,
       "lng": -73.954235
     },
-    "cuisine_type": "Mexican",
+    "cuisine_type": "Mexican Cuisine",
     "operating_hours": {
       "Monday": "5:00 pm - 12:00 am",
       "Tuesday": "5:00 pm - 12:00 am",
