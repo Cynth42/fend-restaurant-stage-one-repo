@@ -17,16 +17,16 @@
 
 1. Clone or download the project from Github 
 2. In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, run `python -m SimpleHTTPServer      8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use                                        `python3http.server 8000`. If you don't have Python installed, navigate to 
-   download and install the software Python's [website](https://www.python.org/.  Run the server in the root folder of the        projec.t
+   download and install the software Python's [website](https://www.python.org/).  Run the server in the root folder of the        projec.t
 3. With your server running, open `http://localhost:8000` in your browser, and navigate to app and enjoy the view.
 
 
 ## Dependencies
 
-1. [Mapbox](https://www.mapbox.com/) You will need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox]            (https://www.mapbox.com/) because I have removed mine. Mapbox is free to use, and does not require any payment information. 
+1. [Mapbox](https://www.mapbox.com/) You will need to replace `<your MAPBOX API KEY HERE>` in the main.js and                    restaurant_info.js files with a token from Mapbox because I have removed mine. Mapbox is free to use, and does not require    any payment information. 
  
 2. Css: Leaflet and Normalize
-3. JavaScript: [leafletjs](https://leafletjs.com/), jQuery 2.1.1 and LazyLoadXT1.1.0 
+3. JavaScript: [Leafletjs](https://leafletjs.com/) jQuery 2.1.1 and LazyLoadXT1.1.0 
 4. HTML
 5. ES6: Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern           web browsers and future proofing JavaScript code.
 
@@ -34,10 +34,10 @@
 ## Resources
 
 These resources plunged me to the right direction:
-* [Service Workers: an Introduction] (https://developers.google.com/web/fundamentals/primers/service-workers/Reviewed), 
+* [Service Workers: an Introduction](https://developers.google.com/web/fundamentals/primers/service-workers/Reviewed), 
 * [Stackoverflow](https://stackoverflow.com/questions/47160929/progressive-web-app-uncaught-in-promise-typeerror-failed-to-fetch?rq=1), 
-* [youtube](https://www.youtube.com/watch?v=ksXwaWHCW6k&feature=youtu.be - How to set up service worker by Traversy Media
-* [youtube](https://www.youtube.com/watch?v=92dtrNU1GQc) - walkthrough by (Doug Brown) - :) 
+* [Youtube](https://www.youtube.com/watch?v=ksXwaWHCW6k&feature=youtu.be) - How to set up service worker by Traversy Media
+* [Youtube](https://www.youtube.com/watch?v=92dtrNU1GQc) - walkthrough by (Doug Brown) - :) 
 
 
 ## Credits
