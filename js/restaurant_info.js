@@ -22,7 +22,7 @@ initMap = () => {
         scrollWheelZoom: false
       });
       L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.jpg70?access_token={mapboxToken}', {
-        mapboxToken:  'pk.eyJ1IjoiY3ludGgyMDE4IiwiYSI6ImNqa3Zxb3d2eTB0ejEzcXBhYjAycWh4d3AifQ.SnN_pIidmpVNkkaBbF3OPA', //'<your MAPBOX API KEY HERE>',
+        mapboxToken:  '<your MAPBOX API KEY HERE>',
         maxZoom: 18,
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
           '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
@@ -89,6 +89,7 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
   const image = document.getElementById('restaurant-img');
   image.className = 'restaurant-img'
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  image.alt = restaurant.alt;
 //  image.alt = DBHelper.imageAltForRestaurant(restaurant);
 
   const cuisine = document.getElementById('restaurant-cuisine');
@@ -163,7 +164,8 @@ createReviewHTML = (review) => {
   const comments = document.createElement('p');
   comments.innerHTML = review.comments;
   li.appendChild(comments);
-
+  li.setAttribute('tabindex', '9');
+  li.setAttribute('aria-label', 'Customer Review');
   return li;
 }
 
@@ -192,3 +194,7 @@ getParameterByName = (name, url) => {
     return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
+
+    
+
+
