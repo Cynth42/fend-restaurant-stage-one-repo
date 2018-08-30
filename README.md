@@ -19,7 +19,7 @@
 2. Go into your terminal, check the version of Python you have: `python -V`. If you have Python 2.x, run `python -m              SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use                     `python3http.server 8000`. If you don't have Python installed, download and install the software on Python's 
   [website](https://www.python.org/).  
 4. Run the server in the root folder of the project.
-3. With your server running, open `http://localhost:8000` in your browser browse app.
+3. With your server running, open `http://localhost:8000` in your browser and browse app.
 
 
 ## Dependencies
@@ -37,7 +37,7 @@ These resources were very useful in understanding how to build this project:
 * [Service Workers: an Introduction](https://developers.google.com/web/fundamentals/primers/service-workers/Reviewed) -         Explains what a service worker is, 
 * [Stackoverflow](https://stackoverflow.com/questions/47160929/progressive-web-app-uncaught-in-promise-typeerror-failed-to-fetch?rq=1), resolve this error: Uncaught (in promise) TypeError: Failed to fetch.
 * [Youtube](https://www.youtube.com/watch?v=ksXwaWHCW6k&feature=youtu.be) - How to set up service worker by Traversy Media
-* [Youtube](https://www.youtube.com/watch?v=92dtrNU1GQc) - walkthrough by (Doug Brown) - :) 
+* [Youtube](https://www.youtube.com/watch?v=92dtrNU1GQc) - walkthrough by (Doug Brown) 
 
 
 ## Credits
