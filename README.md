@@ -2,7 +2,7 @@
 
 ### Udacity Front-End Web Developer Nanodegree program
 
-### This project incrementally converts a static webpage to a mobile-ready web application. A static design that lacks accessibility is converted to be responsive on different sized displays and accessible for screen reader use. Service worker is added to begin the process of creating a seamless offline experience for users.
+### This project incrementally converts a static webpage to a mobile-ready web application. A static design that lacks             accessibility is converted to be responsive on different sized displays and accessible for screen reader use. Service         worker is added to create offline capable mobile web application experience for users.
 
 
 ## Table of Contents
@@ -35,7 +35,7 @@
 
 These resources plunged me to the right direction:
 * [Service Workers: an Introduction](https://developers.google.com/web/fundamentals/primers/service-workers/Reviewed) -         Explains what a service worker is, 
-* [Stackoverflow](https://stackoverflow.com/questions/47160929/progressive-web-app-uncaught-in-promise-typeerror-failed-to-fetch?rq=1), resolve this error: Uncaught (in promise) TypeError: Failed to fetch.
+* [Stackoverflow](https://stackoverflow.com/questions/47160929/progressive-web-app-uncaught-in-promise-typeerror-failed-to-     fetch?rq=1), resolve this error: Uncaught (in promise) TypeError: Failed to fetch.
 * [Youtube](https://www.youtube.com/watch?v=ksXwaWHCW6k&feature=youtu.be) - How to set up service worker by Traversy Media
 * [Youtube](https://www.youtube.com/watch?v=92dtrNU1GQc) - walkthrough by (Doug Brown) - :) 
 
