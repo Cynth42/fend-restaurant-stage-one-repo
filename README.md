@@ -23,17 +23,16 @@
 
 ## Dependencies
 
-1. [Mapbox](https://www.mapbox.com/) You will need to replace `<your MAPBOX API KEY HERE>` in the main.js and                    restaurant_info.js files with a token from Mapbox because I have removed mine. Mapbox is free to use, and does not require    any payment information. 
- 
+1. [Mapbox](https://www.mapbox.com/) - You'll need to replace `<your MAPBOX API KEY HERE>` in the main.js and                    restaurant_info.js files with a token from Mapbox. Mapbox is free to use, and does not require any payment information.  
 2. Css: Leaflet and Normalize
-3. JavaScript: [Leafletjs](https://leafletjs.com/) jQuery 2.1.1 and LazyLoadXT1.1.0 
+3. JavaScript: [Leafletjs](https://leafletjs.com/), jQuery 2.1.1 and LazyLoadXT1.1.0. 
 4. HTML
 5. ES6: Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern           web browsers and future proofing JavaScript code.
 
 
 ## Resources
 
-These resources plunged me to the right direction:
+These resources were very useful in understanding how to build this project:
 * [Service Workers: an Introduction](https://developers.google.com/web/fundamentals/primers/service-workers/Reviewed) -         Explains what a service worker is, 
 * [Stackoverflow](https://stackoverflow.com/questions/47160929/progressive-web-app-uncaught-in-promise-typeerror-failed-to-fetch?rq=1), resolve this error: Uncaught (in promise) TypeError: Failed to fetch.
 * [Youtube](https://www.youtube.com/watch?v=ksXwaWHCW6k&feature=youtu.be) - How to set up service worker by Traversy Media
