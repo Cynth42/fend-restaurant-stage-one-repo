@@ -159,7 +159,7 @@ createRestaurantHTML = (restaurant) => {
   const div = document.createElement('div');
   div.setAttribute('tabindex', 0);
   div.role = 'region';
-  div.setAttribute('aria-labelledby', 'restaurnt-' + restaurant.id);
+  div.setAttribute('aria-labelledby', 'restaurant-' + restaurant.id);
 
   const li = document.createElement('li');
   const image = document.createElement('img');
