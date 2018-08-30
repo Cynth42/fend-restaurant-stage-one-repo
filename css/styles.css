@@ -245,7 +245,7 @@ nav h1 a:hover {
 
 .restaurant-details {
    margin: 0 10px;
- }
+}
 
 #restaurants-list .restaurant-img h1 {
    color: #f18200;
@@ -272,7 +272,7 @@ nav h1 a:hover {
 #restaurants-list p {
    margin: 0;
    font-size: 16px;
- }
+}
 
 #restaurants-list li a {
    background-color: #ffa500;
@@ -498,24 +498,24 @@ nav h1 a:hover {
 
 @media screen and (min-width: 714px) {
    #restaurants-list li {
-    max-width: 100%;
-  }
+      max-width: 100%;
+   }
   .inside .restaurant-details,
   .reviews-details {
-    flex-direction: row;
-  }
+     flex-direction: row;
+   }
   .inside #map-container {
-    width: 100%;
-    position: relative;
+     width: 100%;
+     position: relative;
   }
   .inside .restaurant-address-hours {
-    width: 100%;
+     width: 100%;
   }
 }
 
 @media screen and (min-width: 1032px) {
   #restaurants-list li {
-    max-width: 300px;
+     max-width: 300px;
   }
 }
 
