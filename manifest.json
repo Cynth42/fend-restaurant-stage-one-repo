@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "short_name": "Restaurant",
   "name": "Restaurant Reviews",
@@ -19,25 +18,3 @@
   "display": "fullscreen",
   "theme_color": "#f3f3f3"
 }
-=======
-{
-  "short_name": "Restaurant",
-  "name": "Restaurant Reviews",
-  "icons": [
-    {
-      "src": "/img/icons/192x192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "/img/icons/192x192.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": "/index.html",
-  "background_color": "#f3f3f3",
-  "display": "fullscreen",
-  "theme_color": "#f3f3f3"
-}
->>>>>>> 6ccb44da27864698466b75f7b7e384645a8685ef
