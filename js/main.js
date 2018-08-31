@@ -159,16 +159,17 @@ createRestaurantHTML = (restaurant) => {
   const div = document.createElement('div');
   div.setAttribute('tabindex', 0);
   div.role = 'region';
-  div.setAttribute('aria-labelledby', 'restaurnt-' + restaurant.id);
+  div.setAttribute('aria-labelledby', 'restaurant-' + restaurant.id);
 
   const li = document.createElement('li');
   const image = document.createElement('img');
   image.className = 'restaurant-img';
+  image.alt = restaurant.name;
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
-  image.alt = restaurant.alt;
+  image.setAttribute('alt', `An image of ${restaurant.name}`);
   li.append(image);
 
-  const name = document.createElement('h1');
+  const name = document.createElement('h2');
   name.innerHTML = restaurant.name;
   name.id = 'restaurant-' + restaurant.id;
   li.append(name);

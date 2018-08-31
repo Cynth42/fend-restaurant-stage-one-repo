@@ -88,7 +88,9 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
 
   const image = document.getElementById('restaurant-img');
   image.className = 'restaurant-img'
+  image.alt = restaurant.image;
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+
 //  image.alt = DBHelper.imageAltForRestaurant(restaurant);
 
   const cuisine = document.getElementById('restaurant-cuisine');
@@ -163,7 +165,8 @@ createReviewHTML = (review) => {
   const comments = document.createElement('p');
   comments.innerHTML = review.comments;
   li.appendChild(comments);
-
+  li.setAttribute('tabindex', '9');
+  li.setAttribute('aria-label', 'customer Review');
   return li;
 }
 
