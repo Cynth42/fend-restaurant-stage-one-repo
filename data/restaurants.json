@@ -126,7 +126,11 @@
       "lat": 40.722216,
       "lng": -73.987501
     },
+<<<<<<< HEAD
     "cuisine_type": "American Cuisine",
+=======
+    "cuisine_type": "American cuisine",
+>>>>>>> 6ccb44da27864698466b75f7b7e384645a8685ef
     "operating_hours": {
       "Monday": "8:00 am - 10:30 pm",
       "Tuesday": "8:00 am - 10:30 pm",
@@ -317,6 +321,10 @@
     "name": "Mu Ramen",
     "neighborhood": "Queens",
     "photograph": "9.jpg",
+<<<<<<< HEAD
+=======
+    "alt": "Guests eating noodles",
+>>>>>>> 6ccb44da27864698466b75f7b7e384645a8685ef
     "address": "1209 Jackson Ave, Queens, NY 11101",
     "latlng": {
       "lat": 40.743797,
