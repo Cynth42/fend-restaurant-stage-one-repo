@@ -165,7 +165,7 @@ createReviewHTML = (review) => {
   const comments = document.createElement('p');
   comments.innerHTML = review.comments;
   li.appendChild(comments);
-  li.setAttribute('tabindex', '9');
+  li.setAttribute('tabindex', '7');
   li.setAttribute('aria-label', 'customer Review');
   return li;
 }
