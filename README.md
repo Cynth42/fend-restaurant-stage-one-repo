@@ -34,7 +34,7 @@
 ## Resources
 
 These resources were very useful in understanding how to build this project:
-* [Service Workers: an Introduction](https://developers.google.com/web/fundamentals/primers/service-workers/Reviewed) -         Explains what a service worker is,
+* [Service Workers: an Introduction](https://developers.google.com/web/fundamentals/primers/service-workers/) -         Explains what a service worker is,
 * [Stackoverflow](https://stackoverflow.com/questions/47160929/progressive-web-app-uncaught-in-promise-typeerror-failed-to-fetch?rq=1) - resolved this error: Uncaught (in promise) TypeError: Failed to fetch.
 * [Youtube](https://www.youtube.com/watch?v=ksXwaWHCW6k&feature=youtu.be) - How to set up service worker by Traversy Media
 * [Youtube](https://www.youtube.com/watch?v=92dtrNU1GQc) - walkthrough by (Doug Brown)
