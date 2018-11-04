@@ -1,8 +1,8 @@
 # Restaurant Reviews App: Project 5
 
-### Udacity Front-End Web Developer Nanodegree program
-
-### This project incrementally converts a static webpage to a mobile-ready web application. A static design that lacks      accessibility is converted to be responsive on different sized displays and accessible for screen reader use. Service         worker is added to create offline capable mobile web application experience for users.
+  Udacity Front-End Web Developer Nanodegree program
+ 
+  This project incrementally converts a static webpage to a mobile-ready web application. A static design that lacks             accessibility is converted to be responsive on different sized displays and accessible for screen reader use. Service         worker is added to create offline capable mobile web application experience for users.
 
 
 ## Table of Contents
